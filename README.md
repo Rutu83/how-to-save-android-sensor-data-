@@ -13,7 +13,7 @@ For store file in csv you need  opencsv-5.3.jar  in you android project( /libs/ 
 
 ![](images/paste2.png)
 
-#Then after you're ready to go the dependency is automaticly added in your gredl.build file
+#Then after you're ready to go the dependency is automaticly added in your gradel.build file
 
 #Take look at this image 
 
