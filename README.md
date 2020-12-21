@@ -3,4 +3,7 @@ This is repository is all about how to save  android sensor data in phone's inte
 
 For store file in csv you need  opencsv-5.3.jar  in you android project( /lib/ copy and and paste this file ) this will add all the file.
 
+#look at here how to switch in project 
+![](image/project2.png)
+
 
