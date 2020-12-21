@@ -1,4 +1,4 @@
-package com.example.moodchecker;
+package com.replace with your package.
 
 import android.annotation.SuppressLint;
 import android.app.Service;
@@ -38,10 +38,10 @@ import static java.lang.String.*;
 
 
 public class MainActivity2<writetocsv> extends AppCompatActivity  implements  SensorEventListener  {
-    private static final String TAG = "MainActivity2";
+    private static final String TAG = "MainActivity2";  // here provide your activity 
     private android.hardware.SensorManager SensorManager;
     private Sensor accelerometer, MLight;
-    TextView xValue, yValue, zValue, light;
+    TextView xValue, yValue, zValue, light;  // define the textview  
 
 
 
@@ -50,14 +50,14 @@ public class MainActivity2<writetocsv> extends AppCompatActivity  implements  Se
     public boolean stopbtn;
     private Handler mhandler = new Handler();
 
-    FloatingActionButton btn1,btn2;
+    FloatingActionButton btn1,btn2;  //here i used floating action button you can use your own buttons 
     private Object View;
     Calendar c=Calendar.getInstance();
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main2);   //decring the view of xml 
         xValue = findViewById(R.id.xValue);
         yValue = findViewById(R.id.yValue);
         zValue = findViewById(R.id.zValue);
